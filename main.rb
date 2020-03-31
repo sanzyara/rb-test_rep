@@ -1,7 +1,7 @@
-def main
-    puts "Hello world"
-end
+require_relative 'complex'
 
-if __FILE__ == $0
-    main
-end
+complex_one = MyComplex.new(10, 50)
+complex_two = MyComplex.new(33, 66)
+
+pp complex_one
+pp complex_two
