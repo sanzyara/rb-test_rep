@@ -7,3 +7,6 @@ pp complex_one
 puts complex_one
 pp complex_two
 puts complex_two
+
+sum = complex_one.add(complex_two)
+puts "Summ of complex numbers : #{sum}"
