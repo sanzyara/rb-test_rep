@@ -5,3 +5,7 @@ class MyComplex
     end
 end
 
+def to_s
+   "#{@real} + i*#{@imaginary}" 
+end
+
