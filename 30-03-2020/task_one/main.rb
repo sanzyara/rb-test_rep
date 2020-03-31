@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'complex'
 
 complex_one = MyComplex.new(10, 50)
